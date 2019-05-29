@@ -1,3 +1,29 @@
+## Creation notes:
+
+> development in progress
+
+steps:
+
+// create the react app (updated)
+1. npx create-react-app 00-login-redux-test
+
+// add router, redux and minimal middleware requrired
+2. npm i --save react-router-dom react-redux redux redux-logger redux-thunk
+
+// add some lintin
+3. npm i -D eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+4. npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+
+// HTML
+5. include bootstrap css
+6. form copied from https://getbootstrap.com/docs/4.3/examples/sign-in/
+7. spinner downloaded from https://loading.io/
+
+
+https://hackernoon.com/absolute-imports-with-create-react-app-4c6cfb66c35d
+
+...
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
